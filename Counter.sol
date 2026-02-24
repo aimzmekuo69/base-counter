@@ -1,1 +1,15 @@
-⼯匠䑐ⵘ楌散獮ⵥ摉湥楴楦牥›䥍ൔ瀊慲浧⁡潳楬楤祴帠⸰⸸㬰਍਍潣瑮慲瑣䌠畯瑮牥笠਍††極瑮瀠扵楬⁣潣湵㭴਍਍††畦据楴湯椠据敲敭瑮⤨瀠扵楬⁣ൻ †††挠畯瑮⬠‽㬱਍††ൽഊ †映湵瑣潩⁮敤牣浥湥⡴異汢捩笠਍††††潣湵⁴㴭ㄠ഻ †素਍ൽ
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Counter {
+    uint256 public count;
+
+    function increment() public {
+        count += 1;
+    }
+
+    function decrement() public {
+        require(count > 0, "Counter: below zero");
+        count -= 1;
+    }
+}
